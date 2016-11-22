@@ -3,6 +3,9 @@
 ## Casino
 A set of classes and interfaces that you would need to implement the functionality of a generic card game, including method signatures and member variables, written in ES6. These are to illustrate class design only and do not amount to a real game.
 
+For illustrative purposes, private data is being kept using properties whose names are marked via a prefixed underscore, with the understanding that it is not safe, and is only a guideline for client code.
+  
+
 ## Getting started
 
 Perform the following commands:
