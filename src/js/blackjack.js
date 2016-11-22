@@ -1,13 +1,14 @@
+import { CardGame } from './cardgame'
+
+
 class BlackJack extends CardGame {
   
-  constructor(dealer, players) {
-    super(dealer, players);
+  constructor(table) {
+    super(table);
   }
   
   play() {
-    
-    //main controller for a black jack game
-        
+    console.log('table ' + this.table().getId() + ' is playing blackjack');
   }
 
   

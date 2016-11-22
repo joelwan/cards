@@ -1,11 +1,15 @@
+import { Card } from './card'
+
+
 class Deck {
   
-  constructor(cards) {
-    this._cards = cards;
+  constructor() {
+    //initialize a deck of cards
+    console.log('new deck of cards created');
   }
   
   shuffle() {
-    
+    console.log('deck shuffled');
   }
   
   dealCards(num) {

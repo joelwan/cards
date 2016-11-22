@@ -12,7 +12,9 @@ class Player {
     //returns session stats about the user, win/lose ratio, etc.
   }
   
-  
+  performAction(action) {
+    
+  }
   
 }
 

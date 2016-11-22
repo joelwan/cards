@@ -1,10 +1,13 @@
+import { Table } from './table'
+import { Action } from './action'
+
 class CardGame {
   
-  constructor(dealer, players) {
-    this._dealer = dealer;
-    this._players = players;
+  constructor(table) {
+    this._table = table;
   }
   
+
   handlePlayerAction(action) {
     
   }
@@ -12,14 +15,22 @@ class CardGame {
   handleDealerAction(action) {
     
   }
-  
+
   dividePot(amount) {
     
   }
   
-  getNextPlayer() {
-    
+  table() {
+    return this._table;
   }
+  
+  play() {
+    
+    //main game loop
+    //to be implemented in each game type separately
+        
+  }
+  
   
 }
 

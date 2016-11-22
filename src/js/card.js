@@ -6,8 +6,8 @@ class Card {
     this._visible = false;
   }
   
+  //turn card face up
   show() {
-    //turn card face up
     this._visible = true;
   }
   
